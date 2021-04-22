@@ -1,7 +1,7 @@
 # Expense-Tracker:
-flutter run --no-sound-null-safety
-dart --no-sound-null-safety 
-run pod install --repo-update 
+- flutter run --no-sound-null-safety
+- dart --no-sound-null-safety 
+- run pod install --repo-update 
 # Analyze (Lint) project: 
 run command -> dart analyze
 
