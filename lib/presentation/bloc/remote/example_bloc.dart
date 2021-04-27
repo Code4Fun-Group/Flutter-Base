@@ -5,7 +5,7 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
 
-import '../../../../../core/services/remote_data.dart';
+import '../../../core/utils/remote_data.dart';
 import '../../../domain/entities/example_entity.dart';
 import '../../../domain/usecases/example_get_user_remote_usecase.dart';
 import '../../../domain/usecases/example_save_user_usecase.dart';

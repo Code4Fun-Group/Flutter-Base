@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'core/route/app_routes.dart';
-import 'features/example/presentation/bloc/remote/example_bloc.dart';
-import 'features/example/presentation/example_screen.dart';
 import 'injector.dart';
+import 'presentation/bloc/remote/example_bloc.dart';
+import 'presentation/example_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

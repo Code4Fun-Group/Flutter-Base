@@ -3,16 +3,16 @@ import 'package:logger/logger.dart';
 
 import 'core/constants/api_constant.dart';
 import 'core/constants/db_constant.dart';
-import 'core/services/local/app_database.dart';
-import 'core/services/remote/app_remote.dart';
-import 'core/services/remote/dio_client.dart';
-import 'features/example/data/repositories/example_repository_implement.dart';
-import 'features/example/domain/repositories/example_repository.dart';
-import 'features/example/domain/usecases/example_get_user_local_usecase.dart';
-import 'features/example/domain/usecases/example_get_user_remote_usecase.dart';
-import 'features/example/domain/usecases/example_save_user_usecase.dart';
-import 'features/example/presentation/bloc/local/example_local_bloc.dart';
-import 'features/example/presentation/bloc/remote/example_bloc.dart';
+import 'data/datasources/local/app_database.dart';
+import 'data/datasources/remote/app_remote.dart';
+import 'data/datasources/remote/dio_client.dart';
+import 'data/repositories/example_repository_implement.dart';
+import 'domain/repositories/example_repository.dart';
+import 'domain/usecases/example_get_user_local_usecase.dart';
+import 'domain/usecases/example_get_user_remote_usecase.dart';
+import 'domain/usecases/example_save_user_usecase.dart';
+import 'presentation/bloc/local/example_local_bloc.dart';
+import 'presentation/bloc/remote/example_bloc.dart';
 
 final injector = GetIt.instance;
 

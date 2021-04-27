@@ -4,7 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
 
-import '../../constants/api_constant.dart';
+import '../../../core/constants/api_constant.dart';
 
 class DioClient {
   DioClient(this.apiBaseUrl);

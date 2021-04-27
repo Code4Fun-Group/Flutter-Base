@@ -1,4 +1,4 @@
-import '../../../../core/services/remote_data.dart';
+import '../../core/utils/remote_data.dart';
 import '../../data/model/example_model.dart';
 import '../entities/example_entity.dart';
 

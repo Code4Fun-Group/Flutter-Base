@@ -1,4 +1,4 @@
-import '../../../../core/utils/base_usecase.dart';
+import '../../core/utils/base_usecase.dart';
 import '../entities/example_entity.dart';
 import '../repositories/example_repository.dart';
 

@@ -1,7 +1,7 @@
 import 'package:floor/floor.dart';
 
-import '../../../../../core/constants/db_constant.dart';
-import '../../../domain/entities/example_entity.dart';
+import '../../../../core/constants/db_constant.dart';
+import '../../../../domain/entities/example_entity.dart';
 
 @dao
 abstract class ExampleDao {

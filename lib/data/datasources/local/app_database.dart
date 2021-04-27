@@ -1,11 +1,11 @@
 import 'dart:async';
 
+import 'package:expense_tracker/core/constants/db_constant.dart';
 import 'package:floor/floor.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
 
-import '../../../features/example/data/datasources/local/example_dao.dart';
-import '../../../features/example/domain/entities/example_entity.dart';
-import '../../constants/db_constant.dart';
+import 'DAOs/example_dao.dart';
+import '../../../domain/entities/example_entity.dart';
 
 part 'app_database.g.dart';
 

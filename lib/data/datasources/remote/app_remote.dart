@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
-import '../../../features/example/data/model/example_model.dart';
-import '../remote_data.dart';
+import '../../model/example_model.dart';
+import '../../../core/utils/remote_data.dart';
 
 class AppRemote {
   const AppRemote(this._dio);
