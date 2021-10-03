@@ -1,5 +1,5 @@
-import '../../core/utils/remote_data.dart';
 import '../../core/utils/base_usecase.dart';
+import '../../core/utils/remote_data.dart';
 import '../entities/example_entity.dart';
 import '../repositories/example_repository.dart';
 

@@ -4,13 +4,15 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'bloc/remote/example_bloc.dart';
 
 class ExampleScreen extends StatefulWidget {
+  const ExampleScreen({Key? key}) : super(key: key);
+
   static const routeName = '/';
 
   @override
-  _ExampleScreenState createState() => _ExampleScreenState();
+  ExampleScreenState createState() => ExampleScreenState();
 }
 
-class _ExampleScreenState extends State<ExampleScreen> {
+class ExampleScreenState extends State<ExampleScreen> {
   @override
   Widget build(BuildContext context) {
     return Column(

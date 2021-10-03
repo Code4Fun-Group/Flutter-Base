@@ -13,3 +13,4 @@ class ExampleGetUserLocalUsecase
     return _exampleRepository.getAllUserFromLocal();
   }
 }
+                

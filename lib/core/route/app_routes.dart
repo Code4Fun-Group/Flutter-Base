@@ -6,13 +6,13 @@ class AppRoutes {
   static Route onGenerateRoutes(RouteSettings settings) {
     switch (settings.name) {
       case ExampleScreen.routeName:
-        return _materialRoute(ExampleScreen());
+        return _materialRoute(const ExampleScreen());
       default:
-        return _materialRoute(ExampleScreen());
+        return _materialRoute(const ExampleScreen());
     }
   }
 
   static Route<dynamic> _materialRoute(Widget view) {
-    return MaterialPageRoute(builder: (_) => view);
+    return MaterialPageRoute<dynamic>(builder: (_) => view);
   }
 }

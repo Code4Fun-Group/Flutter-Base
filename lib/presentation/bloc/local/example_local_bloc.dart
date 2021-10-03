@@ -17,7 +17,7 @@ class ExampleLocalBloc extends Bloc<ExampleLocalEvent, ExampleLocalState> {
   @override
   Stream<ExampleLocalState> mapEventToState(ExampleLocalEvent event) async* {
     if (event is GetUserFromLocal) {
-      final users = await _getUserLocalUsecase({});
+      final users = await _getUserLocalUsecase(<void>{});
       yield Loaded(users);
     }
   }

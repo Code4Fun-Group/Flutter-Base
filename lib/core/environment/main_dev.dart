@@ -8,5 +8,5 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Config.appFlavor = Flavor.DEVELOPMENT;
   await initDI();
-  runApp(MyApp());
+  runApp(const MyApp());
 }
