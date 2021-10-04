@@ -7,19 +7,19 @@ class AppTheme {
     // fontFamily: 'IBMPlexSans',
     backgroundColor: ColorPalettes.lightBG,
     primaryColor: ColorPalettes.lightPrimary,
-    accentColor:  ColorPalettes.lightAccent,
-    cursorColor: ColorPalettes.lightAccent,
     dividerColor: ColorPalettes.darkBG,
     scaffoldBackgroundColor: ColorPalettes.lightBG,
     appBarTheme: const AppBarTheme(
-      textTheme: TextTheme(
-        headline6: TextStyle(
-          color: ColorPalettes.darkBG,
-          fontSize: 18.0,
-          fontWeight: FontWeight.bold,
-        ),
+      toolbarTextStyle: TextStyle(
+        color: ColorPalettes.darkBG,
+        fontSize: 18.0,
+        fontWeight: FontWeight.bold,
       ),
     ),
+    colorScheme:
+        ColorScheme.fromSwatch().copyWith(secondary: ColorPalettes.lightAccent),
+    textSelectionTheme:
+        const TextSelectionThemeData(cursorColor: ColorPalettes.lightAccent),
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -27,20 +27,20 @@ class AppTheme {
     brightness: Brightness.dark,
     backgroundColor: ColorPalettes.darkBG,
     primaryColor: ColorPalettes.darkPrimary,
-    accentColor: ColorPalettes.darkAccent,
     dividerColor: ColorPalettes.lightPrimary,
     scaffoldBackgroundColor: ColorPalettes.darkBG,
-    cursorColor: ColorPalettes.darkAccent,
     appBarTheme: const AppBarTheme(
       color: ColorPalettes.darkPrimary,
-      textTheme: TextTheme(
-        headline6: TextStyle(
-          color: ColorPalettes.lightBG,
-          fontSize: 18.0,
-          fontWeight: FontWeight.w700,
-        ),
+      toolbarTextStyle: TextStyle(
+        color: ColorPalettes.darkBG,
+        fontSize: 18.0,
+        fontWeight: FontWeight.bold,
       ),
     ),
+    colorScheme:
+        ColorScheme.fromSwatch().copyWith(secondary: ColorPalettes.darkAccent),
+    textSelectionTheme:
+        const TextSelectionThemeData(cursorColor: ColorPalettes.darkAccent),
   );
 }
 
